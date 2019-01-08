@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a project built with Ruby on Rails on the front and backend.  It is a simple CRUD application that allows you to add products to a shopping cart and empty the cart. Future iterations will add user authentication and a payment option.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To use:  First clone and cd into the directory. Run "rails db:migrate && rails db:seed".  To start the server and begin using the application run "rails s."
