@@ -5,7 +5,9 @@
 
   <h2>Your Cart</h2>
     <table>
+      <% if cart.line_items[0] %>
   <%= render(cart.line_items[0])  %>
+    <% end %>
     <tfoot>
       <tr>
         <th colspan="2">Total:</th>
